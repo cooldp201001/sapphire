@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/write.png">
+    <title>Book Us</title>
+</head>
+<body>
+    <div style="text-align: center">
+     <h1>kindy fill some basic information so team can get back to you:</h1>
+    </div>
+
+    <!-- form -->
+    <form action="./submission.html" target="_parent" autocomplete="" style=" background-color:#F5F5F5; font-size: 1.5rem;">
+        <fieldset>
+            <legend>Information</legend>
+            <label for="lastName">Last Name:</label>
+            <input  type="text" placeholder="Last name" required>
+            <br><br>
+            <label for="firstName">First Name:</label>
+            <input type="text" placeholder="First name" required>
+            <br><br>
+            <label for="event">Choose the event type:</label>
+            <select id="event" name="event" required>
+              <option value="vorporateEvent">Corporate Event</option>
+              <option value="virtualEvent">Virtual Event</option>
+              <option value="privateEvent">Private Event</option>
+              <option value="destinyEvent">Destiny Event</option>
+              <option value="IndustryEvent">Industry Event</option>
+            </select>
+            <br><br>
+            <label for="userMail">Email:</label>
+            <!-- <input type="email" id="usereMail"  required> -->
+            <br><br>
+            <input type="reset" value="reset">
+            <input type="submit"  value="Submit">
+            
+        </fieldset>
+    </form>
+</body>
+</html>
